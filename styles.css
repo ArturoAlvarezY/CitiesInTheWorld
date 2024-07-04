@@ -38,3 +38,16 @@ padding-right: 20px;
     margin-bottom: 20px;
     height: 200px;
 }
+.restaurant {
+    background-color: #d9d9d9;
+    padding: 20px;
+    text-align: center;
+}
+.restaurant .circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
