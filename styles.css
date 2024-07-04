@@ -1,0 +1,17 @@
+body {
+background-color: #e0e0e0;
+}
+.header {
+background-color: #555;
+color: white;
+padding: 10px 0;
+}
+
+.header h1 {
+margin: 0;
+padding-left: 20px;
+}
+
+.header .nav {
+padding-right: 20px;
+}
