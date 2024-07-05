@@ -22,11 +22,14 @@ body {
         background-color: #cccccc;
         text-align: center;
         padding: 100px 100px;
-        font-size: 5rem;
         background-image: url(/img/banner.jpg);
         background-size: cover; 
         background-position: center; 
         background-attachment: fixed; 
+    }
+
+    #popularCities{
+        font-size: 5rem;
     }
     .ranking {
         background-color: white;
@@ -52,11 +55,29 @@ body {
         padding: 20px;
         text-align: center;
     }
-    .restaurant .circle {
+    .french, .roma, .dubai, .tokyo {
         width: 100px;
         height: 100px;
         background-color: red;
         border-radius: 50%;
         display: inline-block;
         margin: 10px;
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .french{
+        background-image: url(/img/rest1.webp);
+    }
+
+    .roma{
+        background-image: url(/img/rest2.webp);
+    }
+
+    .tokyo{
+        background-image: url(img/rest3.webp);
+    }
+
+    .dubai{
+        background-image: url(img/rest4.webp);
     }
